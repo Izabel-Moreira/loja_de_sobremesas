@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja de sobremesas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+
+            <h1 class="titulo">Sobremesas</h1>
+            <div class="chuva-de-cores"></div>
+       
+    </header>
+
+    <main>
+        <section class="products">
+            <div class="product-item" data-product-id="waffle">
+                <img src="./assets/waffle.jfif" alt="Waffle with Berries">
+                <div class="product-info">
+                    <h2>Waffle</h2>
+                   
+                    <span class="price">R$6.50</span>
+                    <button class="add-to-cart" data-product-id="waffle">Adicionar</button>
+                </div>
+            </div>
+            <div class="product-item" data-product-id="creme-brulee">
+                <img src="./assets/brulee.jfif" alt="Vanilla Bean Crème Brûlée">
+                <div class="product-info">
+                    <h2>Crème Brûlée</h2>
+                   
+                    <span class="price">R$7.00</span>
+                    <button class="add-to-cart" data-product-id="creme-brulee">Adicionar</button>
+                </div>
+            </div>
+            <div class="product-item" data-product-id="macarons">
+                <img src="./assets/macaron.jfif" alt="Macaron Mix of Five">
+                <div class="product-info">
+                    <h2>Macaron</h2>
+                    
+                    <span class="price">R$8.00</span>
+                    <button class="add-to-cart" data-product-id="macarons">Adicionar</button>
+                </div>
+            </div>
+            <div class="product-item" data-product-id="tiramisu">
+                <img src="./assets/tiramisu.jfif" alt="Classic Tiramisu">
+                <div class="product-info">
+                    <h2>Tiramisu</h2>
+                    
+                    <span class="price">R$5.50</span>
+                    <button class="add-to-cart" data-product-id="tiramisu">Adicionar</button>
+                </div>
+            </div>
+            <div class="product-item" data-product-id="baklava">
+                <img src="./assets/baklava.jfif" alt="Pistachio Baklava">
+                <div class="product-info">
+                    <h2>Baklava</h2>
+                    
+                    <span class="price">R$4.00</span>
+                    <button class="add-to-cart" data-product-id="baklava">Adicionar</button>
+                </div>
+            </div>
+            <div class="product-item" data-product-id="lemon-pie">
+                <img src="./assets/torta.jfif" alt="Lemon Meringue Pie">
+                <div class="product-info">
+                    <h2>Torta Doce</h2>
+                   
+                    <span class="price">R$5.00</span>
+                    <button class="add-to-cart" data-product-id="torta_doce">Adicionar</button>
+                </div>
+            </div>
+    
+            <div class="product-item" data-product-id="brownie">
+                <img src="./assets/brownie.jfif" alt="Salted Caramel Brownie">
+                <div class="product-info">
+                    <h2>Brownie</h2>
+                   
+                    <span class="price">R$5.50</span>
+                    <button class="add-to-cart" data-product-id="brownie">Adicionar</button>
+                </div>
+            </div>
+           
+        </section>
+
+        <section class="cart">
+            <h2 class="carrinho">Carrinho</h2>
+            <ul class="cart-items"></ul>
+            <div class="cart-total">
+                <p>Total: <span class="total-price">R$0.00</span></p>
+            </div>
+            <button class="confirm-order">Comfirmar Pedido</button>
+            <button class="start-new-order">Começar um novo pedido</button>
+        </section>
+    </main>
+
+    <div class="order-confirmation">
+        <div class="confirmation-message">
+            <h2>Obrigado pelo seu pedido!</h2> 
+            <p>Seu pedido foi feito com sucesso.</p>
+            <button class="close-confirmation">Close</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
